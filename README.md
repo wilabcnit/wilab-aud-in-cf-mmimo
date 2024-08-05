@@ -3,16 +3,16 @@ Cell-Free massive MIMO networks have recently emerged as a promising solution to
 
 Full text of the paper can be found on [arXiv]()
 
-# [Deep Learning]() 
+# [Deep Learning](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/CNN.py) 
 we employ three 2D-Convolution layers consisting of 128, 64, and 32 filters, respectively. We use same padding for the convolutional layers, such that the convolution input and output sizes are equal. We employ a kernel/filter of size 2 x 2 for N > 1 and a filter of size 1 x 2 for N=1, with a stride of 1. After the 2D-convolution layers, we employ a set of linear layer, batch normlization layer, and activation function.
 
-![alt text]()
+![alt text](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/arch.pdf)
  
-# [Dataset Generation]()
+# [Dataset Generation](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/dataset_generation.py)
 Python script that generates datasets for training, validation, and testing a CNN for active user detection in CF-mMIMO systems.
 
 # How to Run
-Execute the [script]() using the following command
+Execute the [script](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/script) using the following command
 ```
 ./script
 ```
