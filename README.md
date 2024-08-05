@@ -16,7 +16,7 @@ Execute the [script](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/mai
 ```
 ./script
 ```
-The script will generate the datasets and train the network. 
+The script will generate training, validation, and test datasets. The network will be trained using the training dataset and evaluated using the validation and test datasets.
 
 We tested the network on the server with 
 RAM 128 GB
