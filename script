@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Define variables
+NUM_APs=20 # Number of APs
+NUM_Users=200 # Number of users
+NUM_Ant=3 # Number of antennas at each AP
+
+# Run the Python scripts
+python dataset_generation.py $NUM_APs $NUM_Users
+python CNN.py $NUM_APs $NUM_Users $NUM_Ant
