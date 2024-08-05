@@ -58,5 +58,6 @@ unzip model.zip
 ./script
 ```
 
+We have pickle 4.0 to create the [pilots20.pkl](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/Test/pilots20.pkl) file. If you encounter any compatibility issues, please ensure that you are using the same version of Pickle.
 
 
