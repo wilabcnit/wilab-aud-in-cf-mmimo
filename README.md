@@ -12,11 +12,19 @@ we employ three 2D-Convolution layers consisting of 128, 64, and 32 filters, res
 Python script that generates datasets for training, validation, and testing a CNN for active user detection in CF-mMIMO systems.
 
 # How to Run
-Execute the [script](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/script) using the following command
+1. Clone the repository
+```
+git clone https://github.com/wilabcnit/wilab-aud-in-cf-mmimo
+```
+2. Navigate to the Test folder
+```
+cd wilab-aud-in-cf-mmimo
+```
+4. Execute the [script](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/script) using the following command
 ```
 ./script
 ```
-The script will generate training, validation, and test datasets. The network will be trained using the training dataset and evaluated using the validation and test datasets.
+The script will generate training, validation, and test datasets. The network will be trained using the training dataset and evaluated using the validation and test datasets. To modify the number of Access Points, users, or antennas at each AP, please adjust the corresponding variables inside the configuration file/script. [script](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/script). 
 
 We tested the network on the server with 
 RAM 128 GB
@@ -29,3 +37,26 @@ tensorflow-gpu 2.4.1
 Other dependencies:
 scikit-learn
 pandas
+
+# Test Example
+We have provided a test case with 20 Access Points (APs), 200 users, and 3 antennas per AP. All relevant files are located in the [Test](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/tree/main/Test) folder. This folder includes a pretrained model configured with the specified system parameters. Please follow the following steps:
+
+1. Clone the repository
+```
+git clone https://github.com/wilabcnit/wilab-aud-in-cf-mmimo
+```
+2. Navigate to the Test folder
+```
+cd wilab-aud-in-cf-mmimo/Test
+```
+3. Extract the model.zip
+```
+unzip model.zip
+```
+4. Execute the [script](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/Test/script) using the following command
+```
+./script
+```
+
+
+
