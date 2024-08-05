@@ -20,7 +20,7 @@ git clone https://github.com/wilabcnit/wilab-aud-in-cf-mmimo
 ```
 cd wilab-aud-in-cf-mmimo
 ```
-4. Execute the [script](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/script) using the following command
+4. Execute the [script](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/script)
 ```
 ./script
 ```
@@ -53,7 +53,7 @@ cd wilab-aud-in-cf-mmimo/Test
 ```
 unzip model.zip
 ```
-4. Execute the [script](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/Test/script) using the following command
+4. Execute the [script](https://github.com/wilabcnit/wilab-aud-in-cf-mmimo/blob/main/Test/script)
 ```
 ./script
 ```
